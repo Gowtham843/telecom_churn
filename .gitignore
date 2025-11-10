@@ -1,0 +1,6 @@
+"backend/telecom/" 
+"__pycache__/" 
+"node_modules/" 
+"*.pkl" 
+"*.joblib" 
+"*.dll" 
