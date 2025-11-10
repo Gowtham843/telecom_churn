@@ -1,24 +1,60 @@
-"backend/telecom/" 
-"__pycache__/" 
-"node_modules/" 
-"*.pkl" 
-"*.joblib" 
-"*.dll" 
-"telco_churn/Lib/" 
-"__pycache__/" 
-"node_modules/" 
-"*.pkl" 
-"*.dll" 
-"*.joblib" 
-"telco_churn/Lib/" 
-"*.dll" 
-"*.pkl" 
-"*.joblib" 
-"__pycache__/" 
-"node_modules/" 
-"telco_churn/Lib/" 
-"*.dll" 
-"*.pkl" 
-"*.joblib" 
-"__pycache__/" 
-"node_modules/" 
+# ==========================
+# FRONTEND (React / Node)
+# ==========================
+node_modules/
+dist/
+build/
+.npm/
+.pnp/
+.pnp.js
+coverage/
+.DS_Store
+.env
+.env.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==========================
+# BACKEND (Python / FastAPI)
+# ==========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual environments
+venv/
+env/
+.venv/
+telecom/
+backend/telecom/
+telco_churn/
+backend/telecom/Lib/
+telco_churn/Lib/
+
+# Model and large binary files
+*.pkl
+*.joblib
+*.dll
+*.bin
+*.h5
+*.sav
+
+# Cache / Logs
+logs/
+*.log
+*.tmp
+*.cache/
+__MACOSX/
+
+# ==========================
+# OS / Editor junk
+# ==========================
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
